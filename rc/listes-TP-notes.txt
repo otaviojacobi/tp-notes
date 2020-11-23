@@ -1,0 +1,38 @@
+Algorithmes de recherche (AR)
+------------------------
+- SAT (encodage de problèmes/ contraintes de cardinalités)
+- Génération de Sudokus (Minimiser un Sudoku)
+- A* (Problèmes autres que le taquin , étude d'heuristiques)
+- MCTS (Sur le GO (pour ceux qui ne font pas Alphago), sur un autre jeu, MCTS pour choisir/générer un réseau de neurones)
+- Algos génétiques (si pas pris en SMAC)
+- Algorithmes de recherche locale (améliorer des algos génétiques par des phases de "boost", Analyser le comportement de
+  la recherche locale sur les instances aléatoires suivant le seuil de génération)
+- Les Fourmis
+
+Représentation des Connaissances (RC)
+--------------------------------
+- Systèmes à base de règles (ajouter des probas dans les règles, modéliser un problème (par exemple un SE permettant de
+  conseiller l'architecture d'un Réseaux de Neurones))
+- Contraintes (encodage d'un problème en pycsp, encodage d'un problème en SAT, ...)
+- Diagnostic à base de modèles
+- Comptage de solutions
+- Ontologies avec M. Bienvenu (A confirmer)
+
+Systèmes Multi-Agents & Causalité (SMAC)
+---------------------------------
+- Les Fourmis (TSP + visionage, autre algos d'optimisation)
+- Les Automates Cellulaires (Etude de percolation, modélisation épidémiologique, modélisation de systèmes complexes)
+- Algos Génétiques (si pas pris en (RC)) (par exemple auto-génération d'un réseau de neurones, autres problèmes
+  multi-critères)
+- Diagnostic à base de modèles (comment lier des diags à un SE par exemple? On pourrait identifier les règles qui sont
+  en contradiction avec une observation pour réparer un SE qui serait inconsistant)
+- (Autres à venir)
+
+I.A. pour les jeux temps réels
+------------------------------
+- Jeu de courses en steering
+- A* optimisé pour le path finding et le temps réel
+- Jeu de ressources sur la plateforme/Unity
+- GOAP
+- BT
+- (Autres à venir)
